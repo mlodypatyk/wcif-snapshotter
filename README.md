@@ -14,7 +14,7 @@ you browse or roll back to any previous snapshot.
 
 1. Create a WCA OAuth application at
    <https://www.worldcubeassociation.org/oauth/applications/new>.
-   Set the redirect URI to `http://127.0.0.1:8080/callback` and the scopes to
+   Set the redirect URI to `http://localhost:8080/callback` and the scopes to
    `public manage_competitions`.
 
 2. Install the tool:

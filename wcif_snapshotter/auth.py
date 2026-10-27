@@ -100,7 +100,7 @@ def build_authorize_url(config: dict[str, Any]) -> str:
 
 def _parse_redirect_uri(redirect_uri: str) -> tuple[str, int, str]:
     parsed = urllib.parse.urlparse(redirect_uri)
-    host = parsed.hostname or "127.0.0.1"
+    host = parsed.hostname or "localhost"
     port = parsed.port or 8080
     path = parsed.path or "/"
     return host, port, path

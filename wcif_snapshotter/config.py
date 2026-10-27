@@ -16,7 +16,7 @@ from typing import Any, Optional
 
 APP_DIR_NAME = ".wcif-snapshotter"
 
-DEFAULT_REDIRECT_URI = "http://127.0.0.1:8080/callback"
+DEFAULT_REDIRECT_URI = "http://localhost:8080/callback"
 DEFAULT_SCOPES = "public manage_competitions"
 
 AUTHORIZE_URL = "https://www.worldcubeassociation.org/oauth/authorize"
